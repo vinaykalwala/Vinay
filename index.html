@@ -43,13 +43,14 @@ body, html {
 #Trending {background-color: palegreen;}
 #TopRead {background-color: palegreen;}
 #Recentlyadded {background-color: palegreen;}
+#Terms&Conditions {background-color: palegreen:}
 </style>
 <body>
 <button class="tablink" onclick="openPage('Home', this, 'black')"id="defaultOpen">Home</button>
 <button class="tablink" onclick="openPage('Trending', this, 'black')">Trending</button>
 <button class="tablink" onclick="openPage('TopRead', this, 'black')">TopRead</button>
 <button class="tablink" onclick="openPage('Recentlyadded', this, 'black')">Recentlyadded</button>
-
+ <button class="tablink" onclick="openPage('Terms&Conditions',this, 'black')">Terms&Conditions</button>
 <div id="Home" class="tabcontent">
   <!DOCTYPE html>
 <html lang="en">
@@ -466,6 +467,12 @@ body, html {
 </div>
   </div>
 </div>
+  <div id="Terms&Conditions" class="tabcontent">
+  <h3>Terms&Conditions</h3>
+  <p>Here you can find the terms&Conditions of us</p>
+    <a class="text-black-800 inline-flex items-center md:mb-2 lg:mb-0"> <a class href="terms&conditions.html">Continue Reading</a>
+  </div>      
+      
 <script>
 function openPage(pageName,elmnt,color) {
   var i, tabcontent, tablinks;
