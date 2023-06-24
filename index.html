@@ -1,118 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home Page</title>
-  <link rel="stylesheet" type="text/css" href="styles1.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-}
-
-.navbar {
-  overflow: hidden;
-  background-color:  #666666;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: left;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 15px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  box-shadow: 0px 8px 16px 0px white;
-  z-index: 1;
-}
-
-.dropdown-content .header {
-  background:  #666666;
-  padding: 16px;
-  width: 60%;
-  color: white;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-  transition: display 0.3s ease;
-}
-
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 20%;
-  padding: 10px;
-  background-color: rgb(63, 175, 203);
-  height: 250px;
-}
-
-.column a {
-  float: none;
-  color: white;
-  padding: 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.column a:hover {
-  background-color: black;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    height: auto;
-  }
-}
-
-</style>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7189560920705164"
+	<title>HOME PAGE</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css">
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="stylesheet" href="styles8.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7189560920705164"
      crossorigin="anonymous"></script>
+  
 </head>
+
 <body>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7189560920705164"
      crossorigin="anonymous"></script>
@@ -126,220 +26,239 @@ body {
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-
-    
-  <header class="header">
-    <div class="containers">
-      <a href="index.html" class="logo">
-        <img src="logo.png" alt="Logo">
-      </a>
-    </div>
-    <div class="navbar">
-      <a href="index.html">Home</a>
-      <a href="latest artical.html">Latest Article</a>
-
-      <div class="dropdown">
-        <button class="dropbtn">Top Read 
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <div class="header">
-            <h2>Top Read</h2>
-          </div>   
-          <div class="row">
-            <div class="column">
-              <h3>Business </h3>
-              <a href="Business Planning.html">Business Planning</a>
+	<!-- Header Section -->
+	<header>
+    <header class="text-gray-600 body-font" style="background-color: black;">    
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+          <nav class="menu">
+            <div class="menu-log">
+              <img src="logo.png" alt="Logo">
             </div>
-            <div class="column">
-              <h3>Technology</h3>
-              <a href="The Internet.html">The Internet</a>
-              <a href="Cyber Security.html">Cyber Security</a>
-              <a href="Digital Marketing.html">Digital Marketing</a>
-            </div>
-            <div class="column">
-              <h3>Environment</h3>
-              <a href="Basic Definations.html">Basic Definations</a>
-              <a href="environment pollution.html">Pollution</a>
-              <a href="Energy Source.html">Energy Source</a>
+          </nav>
+        </a>
+        <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+          <a class="mr-5 hover:text-gray-900" href="index.html"><h3>HOME</h3></a>
+          <a class="mr-5 hover:text-gray-900" href="latest artical.html"><h3>LATEST ARTICLE</h3></a>
+          <a class="mr-5 hover:text-gray-900" href="latest artical.html"><h3>TOP READ</h3></a>
+        </nav>
+      </div>
+    </header>
+
+	</header>
+	<main class="body_sec">
+		<section id="Content">
+      <div id="root">
+        <section class="text-gray-600 body-font">
+          <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap -m-4">
+              <div class="p-4 lg:w-1/3">
+                <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">TRENDING ARTICLES</h2>
+                  <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">SINGLE PARENTING</h1>
+                  <p class="leading-relaxed mb-3">There are numerous reasons why a person may become a single or solo parent. You might have decided to start a family on your own, you might be separated or divorced, or the other parent might have died.As a single parent, you may be concerned about providing the joyful, healthy family atmosphere your child needs.</p>
+                  <a class="text-indigo-500 inline-flex items-center"href="Trend article .html">Learn More
+                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                  <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                  </div>
+                </div>
+              </div>
+              <div class="p-4 lg:w-1/3">
+                <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">TOP ARTICLES</h2>
+                  <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">BEST AUTHORS</h1>
+                  <p class="leading-relaxed mb-3">In the world many authors are there but few people became the best, why because everyone has a different type of style in their writing. Some people write for time to pass, and some people are writing for money. Some people feel the character and imagination in their dreams.</p>
+                  <a class="text-indigo-500 inline-flex items-center" href="top article.html">Learn More
+                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                  <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                  </div>
+                </div>
+              </div>
+              <div class="p-4 lg:w-1/3">
+                <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">LATEST ARTICLES</h2>
+                  <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">HAPPY LIFE</h1>
+                  <p class="leading-relaxed mb-3">A happy life is a feeling it comes when you enjoy your own life without any distractions. Many peoples think like happy life comes when they buy costly things, get a job, and satisfy others. These are not reasons for a happy life. Happy life people satisfy their soul, not others. It is very important in everyone's life.</p>
+                  <a class="text-indigo-500 inline-flex items-center" href="latest artical.html">Learn More
+                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                  <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
-      <div class="dropdown">
-        <button class="dropbtn">Trending
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <div class="header">
-            <h2>Trending</h2>
-          </div>   
-          <div class="row">
-            <div class="column">
-              <h3>Sports</h3>
-              <a href="brands.html">Brands</a>
-              <a href="leagues.html">Leagues</a>
-            </div>
-            <div class="column">
-              <h3>Psychology</h3>
-              <a href="life style.html">Life Style</a>
-            </div>
-            <div class="column">
-              <h3>Economy</h3>
-              <a href="Digital economys.html">Digital economy</a>
+		</section>
+	</main>
+  <main class="body_sec">
+    <section id="Content">
+      <div id="root">
+        <section class="text-gray-600 body-font">
+          <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap -mx-4 -my-8">
+              <div class="py-8 px-4 lg:w-1/3">
+                <div class="h-full flex items-start">
+                  <div class="flex-grow pl-6">
+                    <h1 class="title-font text-xl font-medium text-gray-900 mb-3">DEFORESTATION</h1>
+                    <p class="leading-relaxed mb-5">Trees on the earth have existed since the beginning of life forms on earth, long before humans did, and have contributed to food and air for creatures and environmental wellbeing.</p>
+                    <a class="inline-flex items-center">  
+                      <span class="flex-grow flex flex-col pl-3">
+                        <span class="title-font font-medium text-gray-900"><a class="text-indigo-500 inline-flex items-center"href="Deforestation.html">Learn More</a></span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="py-8 px-4 lg:w-1/3">
+                <div class="h-full flex items-start">
+                  <div class="flex-grow pl-6">  
+                    <h1 class="title-font text-xl font-medium text-gray-900 mb-3">SMART MOM BABY</h1>
+                    <p class="leading-relaxed mb-5">Smart mom baby items use for babies for their health with comfortable. Before mothers don’t know how to take care of their babies but at present we have a lot of things and items for babies.</p>
+                    <a class="inline-flex items-center">
+                      <span class="flex-grow flex flex-col pl-3">
+                        <span class="title-font font-medium text-gray-900"><a class="text-indigo-500 inline-flex items-center"href="Business Planning.html">Learn More</a></span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="py-8 px-4 lg:w-1/3">
+                <div class="h-full flex items-start">
+                  <div class="flex-grow pl-6">
+                    <h1 class="title-font text-xl font-medium text-gray-900 mb-3">RADIOACTIVE</h1>
+                    <p class="leading-relaxed mb-5">One of the most widespread kinds of pollution that have been recently affecting the environment and pushing it to destructive limits. This kind of pollution is caused by Radioactive energy.</p>
+                    <a class="inline-flex items-center">
+                      <span class="flex-grow flex flex-col pl-3">
+                        <span class="title-font font-medium text-gray-900"><a class="text-indigo-500 inline-flex items-center"href="Business Planning.html">Learn More</a></span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div> 
-
-    </div>
-    <head>
-      </head>
-      <body>
-        <div class="search-bar">
-          <input type="text">
-          <button type="submit">Search</button>
-        <style>
-          .search-bar input[type="text"] {
-            width: 500px;
-          }
-        </style>
-        </div>
-  </header>
-  <main>
-    <div class="banner">
-      <div>
-
-        <h5></h5>
-      </div>  
-    </div>
-    
-      <div class="achievements">
-    
-        <div class="work">
-          <i class="fas fa-ethernet"></i>
-          <p class="work-heading">TOP ARTICLES</p>
-          <h3>BEST AUTHORS</h3>
-          <p class="work-text">In the world many authors are there but few people became the best,
-            why because everyone has a different type of style in their writing. Some
-            people write for time to pass, and some people are writing for money.
-            Some people feel the character and imagination in their dreams.</p>
-             <a href="top article.html" class="button">Read More</a>
+        </section>
       </div>
-      <div class="work">
-        <i class="fas fa-ethernet"></i>
-        <p class="work-heading">TRENDING ARTICLES</p>
-        <p class="work-text">There are different ways to control the customer&#39;s attention. In
-          business, the market is the main constitutional thing, and it attains
-          customers&#39; concentration.There are two procedures of marketing.
-          The first one is traditional marketing, and the second one is digital
-          marketing, traditional marketing is like a classical type of
-          marketing, and digital marketing is modern marketing</p>
-          <a href="Trend article .html" class="button">Read More</a>
-      </div>
-      <div class="work">
-        <i class="fas fa-ethernet"></i>
-        <p class="work-heading">NEW ARTICLES</p>
-        <p class="work-text">A happy life is a feeling it comes when you enjoy your own life without any
-          distractions. Many peoples think like happy life comes when they buy costly
-          things, get a job, and satisfy others. These are not reasons for a happy life.
-          Happy life people satisfy their soul, not others. It is very important in
-          everyone's life. 
-          Happy life helps you do your best.</p>
-           <a href="latest artical.html" class="button">Read More</a>
-      </div>
-    </div>
-    <div id="primary-content">
-        <div class="wrapper">
-         
-            <div class="read">
-              <h3>Deforestation</h3>
-                  <p>Trees on the earth have existed since the beginning of life forms on earth, long before humans did, and have contributed to food and air for creatures and environmental wellbeing. </p>
-                  <a href="#"><src="images/video-placeholder.jpg" alt="video placeholder" /></a>
-                  <a href="Deforestation.html" class="button">View more</a>
-            </div>
-            <div class="read2">
-              <h3>BEST MALE WRITERS</h3>
-                  <p>Throughout history, there have been many authors in the world from the ancient days. Authors not only write novels,  but they also have extra activities like teaching,  poetry, essay writing. </p>
-                  <a href="#"><src="images/video-placeholder.jpg" alt="video placeholder" /></a>
-                  <a href="BEST MALE WRITERS.html" class="button">View more</a>
-            </div>
-            <div class="read3">
-              <h3>SMART MOM BABY</h3>
-                  <p>Smart mom baby items use for babies for their health with comfortable. Before mothers don’t know how to take care of their babies but at present we have a lot of things and items for babies.</p>
-                  <a href="#"><src="images/video-placeholder.jpg" alt="video placeholder" /></a>
-                  <a href="SMART MOM BABY.html" class="button">View more</a>
-            </div>
-            <div class="read1">
-              <h3>Radioactive</h3>
-                  <p>One of the most widespread kinds of pollution that have been recently affecting the environment and pushing it to destructive limits. This kind of pollution is caused by Radioactive energy.</p>
-                  <a href="#"><src="images/video-placeholder.jpg" alt="video placeholder" /></a>
-                  <a href="Radioactive.html" class="button">View more</a>
-            </div>
-            
-        
-        </div>
-   <div id="second-content">
-          <div class="achievements1">
-            <div class="work1">
-              <i class="fas fa-atom"></i>
-              <p class="work-heading">Differences between SEM and SEO</p>
-              <p class="work-text">SEM is nothing but search engine marketing, and SEO is nothing
-                but search engine optimization.SEM and SEO are both used for
-                business purposes. Search engine marketing, it is a digital
-                marketing blueprint, and it is used to raise the clarity of different
-                websites in depends on the search engine results pages.</p>
-                <a href="SEM and SEO.html" class="button">Read More</a>
-
-            </div>
-            <div class="work1">
-              <i class="fas fa-skiing"></i>
-              <p class="work-heading">ECONOMIC GROWTH</p>
-              <p class="work-text">Economic growth plays a crucial role in the world. Economic growth tells
-                about what happens nationally and internationally, but everything depends on
-                goods and services. Economic growth has both advantages and disadvantages.</p>
-                <a href="ECONOMIC GROWTH ADVANTAGES.html" class="button">Read More</a>
-            </div>
-            <div class="work1">
-              <i class="fas fa-skiing"></i>
-              <p class="work-heading">SOCIAL MEDIA MARKETING</p>
-              <p class="work-text">Social media marketing is an important method for businesses of all proportions to extend expectations and audiences. People find, absorb regarding, come after, and store from the variety of social media.</p>
-                <a href="SOCIAL MEDIA MARKETING.html" class="button">Read More</a>
-            </div>
-          </div>   
-        </div> 
+    </section>
   </main>
-  <!--FONT AWESOME-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <main class="body_sec">
+    <section id="Content">
+      <div id="root">
+        <section class="text-gray-600 body-font">
+          <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap">
+              <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">NUTRITION’S</h2>
+                <p class="leading-relaxed text-base mb-4">Human health development is primarily based on diet. Improved
+                  nutrition strengthens the immune system,
+                  improves mental alertness, and reduces the risk of chronic diseases such
+                  as diabetes and cardiovascular disease.</p>
+                <a class="text-indigo-500 inline-flex items-center" href="NUTRITION’S.html">Learn More
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+              <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">CHILD LABOUR</h2>
+                <p class="leading-relaxed text-base mb-4">Child labour is a worldwide problem that stops youngsters from reaching
+                  their full potential. Child labour is a breach of children&#39;s rights since it can
+                  cause mental or bodily injury, expose them to dangerous conditions.</p>
+                <a class="text-indigo-500 inline-flex items-center" href="CHILD LABOUR.html">Learn More
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+              <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">FASHION</h2>
+                <p class="leading-relaxed text-base mb-4">Sustainable fashion labels create clothing that is friendly to both people
+                  and the environment, reducing their negative environmental consequences as
+                  much as possible. The final goal is a functional </p>
+                <a class="text-indigo-500 inline-flex items-center" href="SUSTAINABLE FASHION.html">Learn More
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+              <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">NETWORK ATTACKS</h2>
+                <p class="leading-relaxed text-base mb-4">A network attack is a process of accessing unauthorized or authorized that may organization's data or proficient or personal data can access with the help of different software that harms computer devices. </p>
+                <a class="text-indigo-500 inline-flex items-center" href="NETWORK ATTACKS.html">Learn More
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
 
-<!--GOOGLE FONTS-->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
-</head>
-<body>
-<footer>
-<div class="footer">
-  <div class="row">
-    <h3>About company</h3>
-  </div>
-<div class="row">
-<a href=""class="buttons">About</a>
-<a href=" "class="buttons">Contact</a>
-<a href="Trems.html"class="button">Terms and Conditions</a>
-<a href="privacy.html"class="button">Privacy</a>
-</div>
-<div class ="row">
-<a href="#"><i class="fa fa-facebook"></i></a>
-<a href="#"><i class="fa fa-instagram"></i></a>
-<a href="#"><i class="fa fa-youtube"></i></a>
-<a href="#"><i class="fa fa-twitter"></i></a>
-</div>
-<div class="row">
-  <a href="homepage1.html"><i class=""></i>Clicktoreads Copyright © 2023 Clicktoreads - All rights reserved</a>
-</div>
-</div>
-</footer>
+      </div>
+    </section>
+  </main>
+  <main class="body_sec">
+    <section id="Content">
+      <div id="root">
+        <footer class="text-gray-600 body-font">
+          <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+              <span class="ml-3 text-xl">Clicktoreads</span>
+            </a>
+            <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2023 Clicktoreads.
+              <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank"></a>
+            </p>
+            <a class="text-black-500 inline-flex items-center" href="Trems.html">Trems and Conditions
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              </svg>
+            </a>
+            <a class="text-black-500 inline-flex items-center" href="privacy.html">Privacy
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              </svg>
+            </a>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+              <a class="text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                  <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </footer>
+
+      </div>
+    </section>
+  </main>
   
 </body>
 </html>
-      
