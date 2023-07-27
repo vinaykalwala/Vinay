@@ -93,3 +93,9 @@ a:hover {
   cursor: pointer !important;
   transition: all 0.3s ease-in-out !important;
 }
+.article {
+  background-color: rgb(201, 204, 213) !important;
+}
+.w3-twothird {
+  background-color: white !important;
+}
