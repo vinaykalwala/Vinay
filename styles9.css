@@ -36,3 +36,29 @@
       .w3-twothird{
         background-color: white !important;
       }
+.w3-container1{
+        background-color: #c27ba0 !important;
+      }
+      .w3 ul{
+        display: flex !important;
+        gap: 10px !important;
+        
+      }
+      @media screen and (max-width: 650px)
+      {
+        .w3 ul{
+          display: flex !important;
+          gap: 5px !important;
+        }
+      }
+      ul li{
+        list-style-type: none !important; 
+        padding-left: 30px !important;
+
+      }
+      a{
+        text-decoration: none !important;
+      }
+      a:hover{
+        color: blue;
+      }
