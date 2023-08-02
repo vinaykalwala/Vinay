@@ -39,7 +39,7 @@
 
 .card {
   border-radius: 50px !important;
-  box-shadow: 5px 5px silver !important;
+  box-shadow: 5px 5px rgb(170, 170, 170) !important;
 }
 
 .col-md-7 {
