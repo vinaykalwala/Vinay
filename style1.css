@@ -6,19 +6,24 @@
   padding: auto !important;
   position: sticky !important;
 }
+
 .container {
-  padding-top: 50px !important;
+  padding-top: 150px !important;
 }
+
 .card text-center {
   padding-right: 20px;
 }
+
 .container2 {
   padding: 30px !important;
   background-color: #eeeded;
 }
+
 .bd {
   padding-left: 50px !important;
 }
+
 .col {
   padding: 50px;
 }
@@ -31,59 +36,76 @@
   padding: 30px !important;
   background-color: rgb(228, 216, 220) !important;
 }
+
 .card {
   border-radius: 50px !important;
+  box-shadow: 5px 5px silver !important;
 }
+
 .col-md-7 {
   padding: 50px !important;
 }
+
 .container3 {
   padding: 20px !important;
   background-color: rgb(237, 228, 255);
 }
+
 .navbar {
   background-color: rgb(147, 181, 198) !important;
 }
+
 .nav-item {
   background-color: rgb(201, 204, 213) !important;
 }
+
 .nav-link {
   border-radius: 10px;
 }
+
 .container4 {
   padding-top: 50px !important;
   background-color: rgb(201, 204, 213) !important;
 }
+
 .container5 {
   padding-top: 150px !important;
   background-color: rgb(201, 204, 213) !important;
 }
+
 :root {
   --bs-body-font-family: "roboto", sans-serif;
 }
+
 .w3-container {
   background-color: rgb(147, 181, 198) !important;
   color: black !important;
 }
+
 img {
   border-radius: 20px !important;
 }
+
 ul {
   list-style: none;
   display: flex;
   gap: 15px;
   padding-top: 20px;
 }
+
 li {
   text-decoration: none;
 }
+
 a {
   color: black !important;
   text-decoration: none;
 }
+
 a:hover {
   color: #a78295 !important;
 }
+
 .btn1 {
   background-color: #d4adfc !important;
   padding: 12px !important;
@@ -93,20 +115,15 @@ a:hover {
   cursor: pointer !important;
   transition: all 0.3s ease-in-out !important;
 }
+
 .article {
   background-color: rgb(201, 204, 213) !important;
 }
+
 .w3-twothird {
   background-color: white !important;
 }
-.fa {
-  padding: 20px;
-  border-radius: 15px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-}
+
 
 /* Add a hover effect if you want */
 .fa:hover {
@@ -117,16 +134,34 @@ a:hover {
 
 /* Facebook */
 .fa-facebook {
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
   background: #3b5998;
   color: white;
 }
 
 .fa-linkedin {
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
   background: #007bb5;
   color: white;
 }
 
 .fa-instagram {
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
   background: #125688;
   color: white;
 }
