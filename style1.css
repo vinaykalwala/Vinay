@@ -165,3 +165,25 @@ a:hover {
   background: #125688;
   color: white;
 }
+.article1 {
+  background-color: rgb(201, 204, 213);
+  position: relative !important;
+  display: flex;
+  flex-direction: column;
+  padding-left: 250px !important;
+}
+
+.article1 ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.article1 ul li a {
+  color: blue !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+}
+
+.article1 ul li a:hover {
+  color: #EA1179 !important;
+}
