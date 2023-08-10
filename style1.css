@@ -187,6 +187,9 @@ a:hover {
 .article1 ul li a:hover {
   color: #EA1179 !important;
 }
+.container9 {
+  display: flex;
+}
 
 .sidebar {
   display: grid;
