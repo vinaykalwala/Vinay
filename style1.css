@@ -187,3 +187,32 @@ a:hover {
 .article1 ul li a:hover {
   color: #EA1179 !important;
 }
+
+.sidebar {
+  display: grid;
+  grid-template-rows: repeat(10, 40px);
+  text-align: center;
+  width: 18%;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.para a {
+  color: blue !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+}
+
+.para a:hover {
+  color: red !important;
+}
+
+@media screen and (max-width: 768px) {
+  .container9 {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+}
