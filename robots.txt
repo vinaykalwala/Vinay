@@ -2,3 +2,4 @@ User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
 Sitemap: https://clicktoreads.com/
+<link rel="canonical" href="https://clicktoreads.com/robots.txt" />
