@@ -1,5 +1,5 @@
+<link rel="canonical" href="http://clicktoreads.com/robots.txt" />
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
 Sitemap: https://clicktoreads.com/
-<link rel="canonical" href="https://clicktoreads.com/robots.txt" />
