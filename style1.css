@@ -5,6 +5,13 @@
   display: flex !important;
   padding: auto !important;
   position: sticky !important;
+  background: #0f0c29 !important;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29) !important;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29) !important;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .container {
@@ -39,7 +46,11 @@
 
 .card {
   border-radius: 50px !important;
-  box-shadow: 0 0 5px rgb(170, 170, 170) !important;
+  box-shadow: 0 0 50px rgb(170, 170, 170) !important;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9) !important;
 }
 
 .col-md-7 {
@@ -52,11 +63,25 @@
 }
 
 .navbar {
-  background-color: rgb(147, 181, 198) !important;
+  background: #0f0c29 !important;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29) !important;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29) !important;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .nav-item {
-  background-color: rgb(201, 204, 213) !important;
+  background: #667db6 !important;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6) !important;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6) !important;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.nav-item:hover {
+  transform: scale(1.1, 1.1) !important;
 }
 
 .nav-link {
@@ -64,22 +89,37 @@
 }
 
 .container4 {
+  border-radius: 5px;
   padding-top: 50px !important;
-  background-color: rgb(201, 204, 213) !important;
+  background: #667db6 !important;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6) !important;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6) !important;
 }
 
 .container5 {
   padding-top: 150px !important;
-  background-color: rgb(201, 204, 213) !important;
+  background: #667db6 !important;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6) !important;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6) !important;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 :root {
   --bs-body-font-family: "roboto", sans-serif;
 }
 
-.w3-container {
-  background-color: rgb(147, 181, 198) !important;
-  color: black !important;
+footer.w3-container {
+  background: #0f0c29 !important;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29) !important;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29) !important;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white !important;
 }
 
 img {
@@ -98,12 +138,13 @@ li {
 }
 
 a {
-  color: black !important;
+  color: black;
   text-decoration: none;
 }
 
 a:hover {
-  color: #EA1179 !important;
+  transform: scale(1.1, 1.1) !important;
+  color: #a36eb1 !important;
 }
 
 .btn1 {
@@ -114,10 +155,16 @@ a:hover {
   border-radius: 20px !important;
   cursor: pointer !important;
   transition: all 0.3s ease-in-out !important;
+  box-shadow: 0 0 5px rgb(170, 170, 170) !important;
 }
 
 .article {
-  background-color: rgb(201, 204, 213) !important;
+  background: #E8CBC0;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #636FA4, #E8CBC0);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .w3-twothird {
@@ -127,6 +174,7 @@ a:hover {
 
 /* Add a hover effect if you want */
 .fa:hover {
+  transform: scale(1.1, 1.1);
   opacity: 0.7;
 }
 
@@ -165,8 +213,14 @@ a:hover {
   background: #125688;
   color: white;
 }
+
 .article1 {
-  background-color: rgb(201, 204, 213);
+  background: #E8CBC0;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #636FA4, #E8CBC0);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   position: relative !important;
   display: flex;
   flex-direction: column;
@@ -185,8 +239,9 @@ a:hover {
 }
 
 .article1 ul li a:hover {
-  color: #EA1179 !important;
+  color: #665519 !important;
 }
+
 .container9 {
   display: flex;
 }
@@ -196,8 +251,13 @@ a:hover {
   grid-template-rows: repeat(10, 40px);
   text-align: center;
   width: 18%;
-  padding: 10px;
-  background-color: #f0f0f0;
+  padding: 0px;
+  background: #1c92d2;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f2fcfe, #1c92d2);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .para a {
@@ -218,4 +278,16 @@ a:hover {
   .sidebar {
     width: 100%;
   }
+}
+
+.carousel {
+  padding: 10px !important;
+}
+
+.carousel-indicators {
+  height: 103px !important;
+}
+
+.carousel-caption {
+  color: white !important;
 }
