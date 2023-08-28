@@ -38,6 +38,10 @@
 .container1 {
   background-color: rgb(61, 187, 149) !important;
 }
+.card5 {
+  padding: 30px !important;
+  background-color: black;
+}
 
 .card1 {
   padding: 30px !important;
@@ -315,4 +319,139 @@ a:hover {
 
 .carousel-caption {
   color: white !important;
+}
+
+.banner ul {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding-left: 350px;
+  display: flex;
+}
+
+@media screen and (max-width: 750px) {
+  .banner ul {
+    padding-left: 0;
+    /* Remove the left padding */
+    flex-direction: row;
+    /* Stack list items vertically */
+    align-items: center;
+    /* Center align items horizontally */
+  }
+
+  .banner ul li {
+    font-size: 2rem;
+    /* Adjust font size for smaller screens */
+    letter-spacing: 10px;
+    /* Adjust letter spacing for smaller screens */
+  }
+}
+
+.banner ul li {
+  list-style: none;
+  font-family: arial !important;
+  font-size: 3rem;
+  letter-spacing: 15px;
+  text-shadow: none;
+  animation: animate 1s infinite linear;
+}
+
+@keyframes animate {
+  0% {
+    color: #484848;
+    text-shadow: none;
+  }
+
+  18% {
+    color: #484848;
+    text-shadow: none;
+  }
+
+  20% {
+    color: #fff900;
+    text-shadow: 0 0 7px #fff900, 0 0 20px #ff6c00;
+  }
+
+  30% {
+    color: #484848;
+    text-shadow: none;
+  }
+
+  35% {
+    color: #fff900;
+    text-shadow: 0 0 7px #fff900, 0 0 20px #ff6c00;
+  }
+
+  70% {
+    color: #484848;
+    text-shadow: none;
+  }
+
+  85% {
+    color: #fff900;
+    text-shadow: 0 0 7px #fff900, 0 0 20px #ff6c00;
+  }
+
+  90% {
+    color: #484848;
+    text-shadow: none;
+  }
+
+  100% {
+    color: #fff900;
+    text-shadow: none;
+  }
+
+
+}
+
+ul li:nth-child(1) {
+  animation-delay: .2s;
+
+}
+
+ul li:nth-child(2) {
+  animation-delay: .4s;
+}
+
+ul li:nth-child(3) {
+  animation-delay: .6s;
+}
+
+ul li:nth-child(4) {
+  animation-delay: .8s;
+}
+
+ul li:nth-child(5) {
+  animation-delay: .10s;
+}
+
+ul li:nth-child(6) {
+  animation-delay: 1s;
+}
+
+ul li:nth-child(7) {
+  animation-delay: 1.2s;
+}
+
+ul li:nth-child(8) {
+  animation-delay: 1.4s;
+}
+
+ul li:nth-child(9) {
+  animation-delay: 1.6s;
+}
+
+ul li:nth-child(10) {
+  animation-delay: 1.8s;
+}
+
+ul li:nth-child(11) {
+  animation-delay: 2s;
+}
+
+ul li:nth-child(12) {
+  animation-delay: 2.2s;
 }
