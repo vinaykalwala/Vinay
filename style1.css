@@ -49,10 +49,6 @@
   box-shadow: 0 0 50px rgb(170, 170, 170) !important;
 }
 
-.card:hover {
-  transform: scale(0.9, 0.9) !important;
-}
-
 .col-md-7 {
   padding: 50px !important;
 }
@@ -148,14 +144,43 @@ a:hover {
 }
 
 .btn1 {
-  background-color: #d4adfc !important;
-  padding: 12px !important;
-  margin-bottom: 35px !important;
-  font-weight: 500 !important;
-  border-radius: 20px !important;
-  cursor: pointer !important;
-  transition: all 0.3s ease-in-out !important;
-  box-shadow: 0 0 5px rgb(170, 170, 170) !important;
+  display: block;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #333;
+  border-radius: 5px;
+  border: 1px solid black;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+.btn1 span {
+  position: relative;
+  z-index: 2;
+}
+
+.btn1:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ff003b;
+  transition: all .35s;
+}
+
+.btn1:hover {
+  color: white !important;
+}
+
+.btn1:hover:after {
+  width: 100%;
 }
 
 .article {
