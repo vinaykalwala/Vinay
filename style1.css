@@ -155,8 +155,8 @@ a:hover {
   font-size: 14px;
   text-decoration: none;
   color: #333;
-  border-radius: 5px;
-  border: 1px solid black;
+  border-radius: 5px 18px;
+  background-color: #0cf;
   letter-spacing: 2px;
   text-align: center;
   position: relative;
@@ -175,6 +175,7 @@ a:hover {
   left: 0;
   width: 0;
   height: 100%;
+  border-radius: 5px 18px;
   background: #ff003b;
   transition: all .35s;
 }
